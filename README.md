@@ -28,7 +28,7 @@ Play music from anywhere and it lights up.
 
 | key | action |
 |-----|--------|
-| 1 / 2 / 3 | choose scene (tide, bloom, drift) |
+| 1 / 2 / 3 / 4 | choose scene (tide, bloom, drift, lark) |
 | space | next scene |
 | f or F11 | toggle fullscreen |
 | r | reload shaders |
@@ -43,6 +43,10 @@ Play music from anywhere and it lights up.
   waveform as an inner ring, a molten core that warms with bass.
 - **drift** — a night shoreline: slow nebula sky, stars that answer the
   treble, and the waveform as the light on the horizon. The quietest one.
+- **lark** — daybreak above the shore: the spectrum fans out of the
+  not-yet-risen sun as rays of light, nacreous clouds catch the colour
+  from beneath, a murmuration wheels overhead, and the waveform is a
+  swift's path drawn in vapour. The loud one.
 
 ## Live tweaking
 

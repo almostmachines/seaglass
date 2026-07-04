@@ -76,8 +76,8 @@ static int load_gl(void) {
 }
 
 /* ---- scenes and shader plumbing ---- */
-static const char *SCENE_NAMES[] = { "tide", "bloom", "drift" };
-#define N_SCENES 3
+static const char *SCENE_NAMES[] = { "tide", "bloom", "drift", "lark" };
+#define N_SCENES 4
 
 typedef struct {
     GLint res, time, bass, mid, treble, level, beat, centroid, flow, spec, wave;
@@ -306,7 +306,7 @@ int main(int argc, char **argv) {
         } else if (!strcmp(argv[i], "-h") && i + 1 < argc) {
             H = atoi(argv[++i]);
         } else {
-            printf("usage: seaglass [-f] [-s tide|bloom|drift] [-w width] [-h height] [--selftest]\n");
+            printf("usage: seaglass [-f] [-s tide|bloom|drift|lark] [-w width] [-h height] [--selftest]\n");
             return strcmp(argv[i], "--help") == 0 ? 0 : 1;
         }
     }
@@ -388,7 +388,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    printf("seaglass: scenes: 1 tide  2 bloom  3 drift  (space cycles)\n");
+    printf("seaglass: scenes: 1 tide  2 bloom  3 drift  4 lark  (space cycles)\n");
     printf("seaglass: keys: f fullscreen, r reload shaders, a restart audio, q quit\n");
 
     Uint64 pf = SDL_GetPerformanceFrequency();
@@ -422,7 +422,7 @@ int main(int argc, char **argv) {
                 } else if (k == SDLK_SPACE) {
                     scene = (scene + 1) % N_SCENES;
                     want_rebuild = 1;
-                } else if (k >= SDLK_1 && k <= SDLK_3) {
+                } else if (k >= SDLK_1 && k <= SDLK_4) {
                     scene = (int)(k - SDLK_1);
                     want_rebuild = 1;
                 }
