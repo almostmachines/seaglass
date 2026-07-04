@@ -28,7 +28,7 @@ Play music from anywhere and it lights up.
 
 | key | action |
 |-----|--------|
-| 1 / 2 / 3 / 4 / 5 | choose scene (tide, bloom, drift, lark, prism) |
+| 1 / 2 / 3 / 4 / 5 / 6 | choose scene (tide, bloom, drift, lark, prism, swell) |
 | space | next scene |
 | f or F11 | toggle fullscreen |
 | r | reload shaders |
@@ -51,6 +51,13 @@ Play music from anywhere and it lights up.
   waveform lightning spirals, stained-glass lattice cells that choose
   their own bands, treble sparks, bass reactor, and beat shockwaves. The
   wild one.
+- **swell** — the spectrum resynthesized as deep water: every band is a
+  travelling wave obeying the real deep-water dispersion relation, so
+  bass rolls through as broad coherent swell and treble scatters into
+  chop. Sun glitter, caustic filaments, and breaking foam all emerge
+  from one field's derivatives; the waveform is a thread of light
+  refracted from below, and every beat drops a stone into the sea. The
+  physical one.
 
 ## Live tweaking
 
