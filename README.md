@@ -19,7 +19,7 @@ Needs SDL2, OpenGL 3.3, and PipeWire (`pw-record`; falls back to
 
     ./seaglass              # windowed
     ./seaglass -f           # fullscreen
-    ./seaglass -s drift     # start on a specific scene
+    ./seaglass -s prism     # start on a specific scene
     ./seaglass --selftest   # headless DSP sanity check
 
 Play music from anywhere and it lights up.
@@ -28,7 +28,7 @@ Play music from anywhere and it lights up.
 
 | key | action |
 |-----|--------|
-| 1 / 2 / 3 / 4 | choose scene (tide, bloom, drift, lark) |
+| 1 / 2 / 3 / 4 / 5 | choose scene (tide, bloom, drift, lark, prism) |
 | space | next scene |
 | f or F11 | toggle fullscreen |
 | r | reload shaders |
@@ -47,6 +47,10 @@ Play music from anywhere and it lights up.
   not-yet-risen sun as rays of light, nacreous clouds catch the colour
   from beneath, a murmuration wheels overhead, and the waveform is a
   swift's path drawn in vapour. The loud one.
+- **prism** — a kinetic idea-engine: radial spectrum architecture,
+  waveform lightning spirals, stained-glass lattice cells that choose
+  their own bands, treble sparks, bass reactor, and beat shockwaves. The
+  wild one.
 
 ## Live tweaking
 
