@@ -28,7 +28,7 @@ Play music from anywhere and it lights up.
 
 | key | action |
 |-----|--------|
-| 1 / 2 / 3 / 4 / 5 / 6 | choose scene (tide, bloom, drift, lark, prism, swell) |
+| 1 … 7 | choose scene (tide, bloom, drift, lark, prism, swell, bower) |
 | space | next scene |
 | f or F11 | toggle fullscreen |
 | r | reload shaders |
@@ -58,6 +58,18 @@ Play music from anywhere and it lights up.
   from one field's derivatives; the waveform is a thread of light
   refracted from below, and every beat drops a stone into the sea. The
   physical one.
+- **bower** — a planted border in a low backlit sun, laid out the way a
+  real one is: tall at the back, short at the front, and left to right
+  it is the spectrum, so bass grows big architectural foliage and treble
+  grows grasses and lace. Every plant lives a whole life on the clock of
+  `uFlow`, which only runs while music is playing — it germinates,
+  throws a stem, unrolls its leaves from the bottom up, opens a flower,
+  browns from the tip and the margin inward and stands a while as a seed
+  head before the next generation takes the bay. Silence stops the
+  clock, so the garden holds rather than resets. The band beneath a
+  plant sets its vigour moment to moment. The waveform is a thread of
+  spider silk slung across the border, beaded with dew. The slow one —
+  it changes over minutes, not bars.
 
 ## Live tweaking
 
