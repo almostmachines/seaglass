@@ -28,7 +28,7 @@ Play music from anywhere and it lights up.
 
 | key | action |
 |-----|--------|
-| 1 … 7 | choose scene (tide, bloom, drift, lark, prism, swell, bower) |
+| 1 … 8 | choose scene (tide, bloom, drift, lark, prism, swell, bower, spin) |
 | space | next scene |
 | f or F11 | toggle fullscreen |
 | r | reload shaders |
@@ -70,6 +70,13 @@ Play music from anywhere and it lights up.
   plant sets its vigour moment to moment. The waveform is a thread of
   spider silk slung across the border, beaded with dew. The slow one —
   it changes over minutes, not bars.
+- **spin** — the laundromat at the end of the signal: two ranks of chrome
+  front-loaders, each washing its own slice of the spectrum into a
+  little candy-coloured storm. Bass knocks the drums against their
+  cabinets, mids tumble impossible garments, treble lets the bubbles and
+  lost socks escape, and the waveform has been repurposed as some
+  extremely questionable neon wiring. An alien sign periodically
+  forgets what it says. The clean one.
 
 ## Live tweaking
 
