@@ -76,7 +76,7 @@ static int load_gl(void) {
 }
 
 /* ---- scenes and shader plumbing ---- */
-static const char *SCENE_NAMES[] = { "tide", "bloom", "drift", "lark", "prism", "swell", "bower", "spin" };
+static const char *SCENE_NAMES[] = { "tide", "bloom", "drift", "lark", "prism", "swell", "bower", "spin", "hopf" };
 #define N_SCENES ((int)(sizeof SCENE_NAMES / sizeof SCENE_NAMES[0]))
 
 typedef struct {
@@ -306,7 +306,7 @@ int main(int argc, char **argv) {
         } else if (!strcmp(argv[i], "-h") && i + 1 < argc) {
             H = atoi(argv[++i]);
         } else {
-            printf("usage: seaglass [-f] [-s tide|bloom|drift|lark|prism|swell|bower|spin] [-w width] [-h height] [--selftest]\n");
+            printf("usage: seaglass [-f] [-s tide|bloom|drift|lark|prism|swell|bower|spin|hopf] [-w width] [-h height] [--selftest]\n");
             return strcmp(argv[i], "--help") == 0 ? 0 : 1;
         }
     }
@@ -388,7 +388,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    printf("seaglass: scenes: 1 tide  2 bloom  3 drift  4 lark  5 prism  6 swell  7 bower  8 spin  (space cycles)\n");
+    printf("seaglass: scenes: 1 tide  2 bloom  3 drift  4 lark  5 prism  6 swell  7 bower  8 spin  9 hopf  (space cycles)\n");
     printf("seaglass: keys: f fullscreen, r reload shaders, a restart audio, q quit\n");
 
     Uint64 pf = SDL_GetPerformanceFrequency();

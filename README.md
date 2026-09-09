@@ -28,7 +28,7 @@ Play music from anywhere and it lights up.
 
 | key | action |
 |-----|--------|
-| 1 … 8 | choose scene (tide, bloom, drift, lark, prism, swell, bower, spin) |
+| 1 … 9 | choose scene (tide, bloom, drift, lark, prism, swell, bower, spin, hopf) |
 | space | next scene |
 | f or F11 | toggle fullscreen |
 | r | reload shaders |
@@ -77,6 +77,15 @@ Play music from anywhere and it lights up.
   lost socks escape, and the waveform has been repurposed as some
   extremely questionable neon wiring. An alien sign periodically
   forgets what it says. The clean one.
+- **hopf** — nine mutually linked circles lifted onto the 3-sphere,
+  rotated in four dimensions, passed through the Hopf map, and
+  stereographically projected back into an impossible paper-white
+  space. Each fibre carries a slice of the spectrum and wears the raw
+  waveform around its complex phase; bass gives the topology weight,
+  mids turn its two independent isoclinic planes, treble develops the
+  coordinate chart behind it, and beats race around every linking
+  circle without ever letting one unlink from another. The impossible
+  one.
 
 ## Live tweaking
 
